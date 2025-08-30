@@ -6,7 +6,7 @@ const setActiveLink = link => {
         const sectionId = link.dataset.sectionId
         const section = document.getElementById(sectionId)
         console.log(section.offsetTop)
-        // section.scrollIntoView({behavior: 'smooth'})
+        section.scrollIntoView({behavior: 'smooth'})
 }
 
 navLinks.forEach(link => {
