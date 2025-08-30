@@ -140,7 +140,7 @@ body {
   transition: 0.5s;
 }
 
-#home-section {
+section {
   min-height: 500px;
   width: 100%;
   float: left;
@@ -148,6 +148,5 @@ body {
   clear: both;
 }
 
-.decs{
-
+.decs {
 }
